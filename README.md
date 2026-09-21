@@ -8,8 +8,10 @@ construído a partir do documento Word `Daniel_Ferreira_Currículo_2026.docx`.
   certificações, formação acadêmica e contato.
 - **Design:** reaproveita a identidade do documento original — faixas pretas de seção com texto
   branco, barras cinza para as empresas e tipografia serifada (Spectral / IBM Plex).
-- **Recursos:** índice lateral com seção ativa, tema claro e escuro automáticos, layout
-  responsivo e folha de impressão (botão “Imprimir / PDF” gera o currículo em PDF).
+- **Recursos:** linha do tempo da carreira em SVG (2005–2026, clicável), filtro de
+  experiência por setor, índice lateral com seção ativa, barra de progresso de leitura,
+  seletor de tema claro/escuro com preferência salva, botão de copiar e-mail, dados
+  estruturados JSON-LD (schema.org/Person) e folha de impressão que gera o currículo em PDF.
 
 ## Publicar no GitHub Pages
 
@@ -20,5 +22,9 @@ construído a partir do documento Word `Daniel_Ferreira_Currículo_2026.docx`.
 ## Como editar
 
 Todo o conteúdo está em `index.html`, em seções comentadas (`<!-- 01 PERFIL -->`,
-`<!-- 02 EXPERIÊNCIA -->` etc.). As cores ficam nas variáveis CSS no topo do arquivo,
-no bloco `:root`.
+`<!-- 02 TRAJETÓRIA -->` etc.). As cores ficam nas variáveis CSS no topo do arquivo, no
+bloco `:root` — cada token é redefinido para o tema escuro logo abaixo.
+
+Para incluir uma nova posição: acrescente um `<article class="job" id="…"
+data-sector="…">` na seção de experiência (o `data-sector` alimenta os filtros) e uma
+faixa correspondente na linha do tempo, dentro do `<svg>` da seção Trajetória.
