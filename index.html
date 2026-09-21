@@ -1,0 +1,1030 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Daniel Ferreira — Controladoria e Gestão Financeira</title>
+<meta name="description" content="Currículo profissional de Daniel Leandro Ferreira da Silva — Diretor Financeiro, Administrativo e Compras. Controladoria, FP&amp;A, valuation, governança e automação financeira." />
+<meta property="og:title" content="Daniel Ferreira — Controladoria e Gestão Financeira" />
+<meta property="og:description" content="Executivo financeiro com mais de 20 anos em controladoria, FP&amp;A, valuation e governança corporativa." />
+<meta property="og:type" content="profile" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,500;0,600;0,700;1,400&display=swap" />
+<style>
+:root{
+  color-scheme: light;
+  --paper:#f1f3f1;
+  --surface:#ffffff;
+  --surface-2:#e9ece9;
+  --ink:#15191a;
+  --ink-2:#3c4446;
+  --muted:#6b7573;
+  --rule:#d5dad7;
+  --rule-strong:#b6bdb9;
+  --band:#15191a;
+  --band-ink:#ffffff;
+  --subband:#d8dcd9;
+  --subband-ink:#15191a;
+  --accent:#0d5c45;
+  --accent-ink:#0a4634;
+  --accent-soft:#e2efe9;
+  --btn-solid-bg:#15191a;
+  --btn-solid-ink:#ffffff;
+  --btn-solid-hover:#0d5c45;
+  --shadow:0 1px 2px rgba(21,25,26,.06), 0 8px 24px -16px rgba(21,25,26,.35);
+  --measure:68ch;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme: dark;
+    --paper:#0e1211;
+    --surface:#161b1a;
+    --surface-2:#1d2322;
+    --ink:#e9edeb;
+    --ink-2:#bfc7c4;
+    --muted:#8a9491;
+    --rule:#28302e;
+    --rule-strong:#3a4340;
+    --band:#242b29;
+    --band-ink:#f0f4f2;
+    --subband:#232a28;
+    --subband-ink:#e9edeb;
+    --accent:#4fc09b;
+    --accent-ink:#7ad3b5;
+    --accent-soft:#132a23;
+    --btn-solid-bg:#4fc09b;
+    --btn-solid-ink:#08120f;
+    --btn-solid-hover:#7ad3b5;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 26px -18px rgba(0,0,0,.9);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --paper:#0e1211;
+  --surface:#161b1a;
+  --surface-2:#1d2322;
+  --ink:#e9edeb;
+  --ink-2:#bfc7c4;
+  --muted:#8a9491;
+  --rule:#28302e;
+  --rule-strong:#3a4340;
+  --band:#242b29;
+  --band-ink:#f0f4f2;
+  --subband:#232a28;
+  --subband-ink:#e9edeb;
+  --accent:#4fc09b;
+  --accent-ink:#7ad3b5;
+  --accent-soft:#132a23;
+  --btn-solid-bg:#4fc09b;
+  --btn-solid-ink:#08120f;
+  --btn-solid-hover:#7ad3b5;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 26px -18px rgba(0,0,0,.9);
+}
+
+*{box-sizing:border-box;}
+html{ -webkit-text-size-adjust:100%; }
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:"IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size:16px;
+  line-height:1.62;
+  font-feature-settings:"kern" 1;
+}
+img{max-width:100%;}
+a{color:var(--accent-ink); text-decoration-thickness:1px; text-underline-offset:2px;}
+a:focus-visible, button:focus-visible{outline:2px solid var(--accent); outline-offset:3px; border-radius:2px;}
+
+/* ---------- layout shell ---------- */
+.shell{
+  max-width:1180px;
+  margin:0 auto;
+  padding-inline:20px;
+  display:grid;
+  grid-template-columns:200px minmax(0,1fr);
+  gap:48px;
+  align-items:start;
+}
+.rail{
+  position:sticky;
+  top:calc(env(safe-area-inset-top, 0px) + 28px);
+  padding-block:28px;
+  display:flex;
+  flex-direction:column;
+  gap:22px;
+}
+.rail-mark{
+  font-family:"Spectral", Georgia, serif;
+  font-weight:700;
+  font-size:19px;
+  line-height:1.2;
+  letter-spacing:-.01em;
+}
+.rail-mark span{display:block; font-family:"IBM Plex Mono", ui-monospace, monospace; font-size:10px; font-weight:400; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); margin-top:6px;}
+.rail nav{display:flex; flex-direction:column; gap:1px; border-top:1px solid var(--rule); padding-top:14px;}
+.rail nav a{
+  display:flex; align-items:baseline; gap:8px;
+  font-size:13.5px; color:var(--ink-2); text-decoration:none;
+  padding:5px 0;
+  border-bottom:1px solid transparent;
+}
+.rail nav a .n{font-family:"IBM Plex Mono", monospace; font-size:10.5px; color:var(--muted); font-variant-numeric:tabular-nums;}
+.rail nav a:hover{color:var(--accent-ink);}
+.rail nav a[aria-current="true"]{color:var(--ink); font-weight:600;}
+.rail nav a[aria-current="true"] .n{color:var(--accent);}
+.rail-actions{display:flex; flex-direction:column; gap:8px; border-top:1px solid var(--rule); padding-top:14px;}
+
+.main{padding-block:28px 0; min-width:0;}
+
+/* ---------- topbar (mobile) ---------- */
+.topbar{display:none;}
+
+/* ---------- buttons ---------- */
+.btn{
+  display:inline-flex; align-items:center; gap:8px;
+  font:inherit; font-size:13.5px; font-weight:500;
+  padding:8px 14px;
+  border:1px solid var(--rule-strong);
+  background:var(--surface);
+  color:var(--ink);
+  border-radius:2px;
+  cursor:pointer;
+  text-decoration:none;
+  transition:border-color .15s ease, color .15s ease, background .15s ease;
+}
+.btn:hover{border-color:var(--accent); color:var(--accent-ink);}
+.btn-solid{background:var(--btn-solid-bg); color:var(--btn-solid-ink); border-color:var(--btn-solid-bg);}
+.btn-solid:hover{background:var(--btn-solid-hover); border-color:var(--btn-solid-hover); color:var(--btn-solid-ink);}
+.btn svg{width:15px; height:15px; flex:none;}
+
+/* ---------- hero ---------- */
+.hero{padding-block:24px 8px;}
+.eyebrow{
+  font-family:"IBM Plex Mono", monospace;
+  font-size:11px; letter-spacing:.16em; text-transform:uppercase;
+  color:var(--accent-ink);
+  display:flex; align-items:center; gap:10px;
+}
+.eyebrow::after{content:""; height:1px; flex:1; background:var(--rule); max-width:180px;}
+h1{
+  font-family:"Spectral", Georgia, serif;
+  font-weight:700;
+  font-size:clamp(34px, 6vw, 56px);
+  line-height:1.04;
+  letter-spacing:-.02em;
+  margin:14px 0 0;
+  text-wrap:balance;
+}
+.hero .role{
+  font-family:"Spectral", Georgia, serif;
+  font-style:italic;
+  font-size:clamp(18px, 2.4vw, 23px);
+  color:var(--accent-ink);
+  margin:10px 0 0;
+}
+.hero .pitch{
+  max-width:var(--measure);
+  color:var(--ink-2);
+  font-size:17px;
+  margin:18px 0 0;
+}
+.hero-actions{display:flex; flex-wrap:wrap; gap:10px; margin-top:24px;}
+
+/* ---------- contact strip ---------- */
+.contact-strip{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(210px,1fr));
+  gap:1px;
+  background:var(--rule);
+  border:1px solid var(--rule);
+  margin-top:32px;
+}
+.contact-strip div{background:var(--surface); padding:13px 15px;}
+.contact-strip dt{
+  font-family:"IBM Plex Mono", monospace;
+  font-size:10px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted);
+  margin:0 0 3px;
+}
+.contact-strip dd{margin:0; font-size:14.5px; font-weight:500; overflow-wrap:break-word; hyphens:none;}
+.contact-strip dd a{color:var(--ink); text-decoration:none;}
+.contact-strip dd a:hover{color:var(--accent-ink); text-decoration:underline;}
+
+/* ---------- section band (echo do documento Word) ---------- */
+section{margin-top:56px; scroll-margin-top:24px;}
+.band{
+  background:var(--band);
+  color:var(--band-ink);
+  border-left:4px solid var(--accent);
+  padding:9px 16px;
+  display:flex; align-items:baseline; justify-content:space-between; gap:14px; flex-wrap:wrap;
+}
+.band h2{
+  margin:0;
+  font-family:"IBM Plex Sans", sans-serif;
+  font-size:14px; font-weight:600;
+  letter-spacing:.12em; text-transform:uppercase;
+}
+.band .tag{
+  font-family:"IBM Plex Mono", monospace;
+  font-size:10.5px; letter-spacing:.1em; text-transform:uppercase;
+  color:var(--band-ink); opacity:.55;
+}
+.section-body{padding-top:26px;}
+.prose{max-width:var(--measure);}
+.prose p{margin:0 0 16px;}
+.prose p:last-child{margin-bottom:0;}
+.prose strong{font-weight:600; color:var(--ink);}
+
+/* ---------- métricas ---------- */
+.facts{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(190px,1fr));
+  gap:26px 34px;
+  margin-top:30px;
+  padding-top:24px;
+  border-top:1px solid var(--rule);
+}
+.fact .v{
+  font-family:"Spectral", Georgia, serif;
+  font-weight:600;
+  font-size:30px; line-height:1.1;
+  font-variant-numeric:tabular-nums;
+  letter-spacing:-.01em;
+}
+.fact .k{
+  font-size:13.5px; color:var(--muted); margin-top:5px;
+}
+
+/* ---------- experiência ---------- */
+.job{ margin-top:30px; }
+.job:first-child{margin-top:0;}
+.job-bar{
+  background:var(--subband);
+  color:var(--subband-ink);
+  padding:10px 14px;
+  display:flex; align-items:baseline; justify-content:space-between; gap:12px; flex-wrap:wrap;
+  border-left:3px solid var(--rule-strong);
+}
+.job-bar h3{
+  margin:0;
+  font-family:"Spectral", Georgia, serif;
+  font-size:19px; font-weight:600; letter-spacing:-.005em;
+}
+.job-bar .years{
+  font-family:"IBM Plex Mono", monospace;
+  font-size:12.5px; font-variant-numeric:tabular-nums;
+  color:var(--ink-2);
+  white-space:nowrap;
+}
+.job-body{
+  border-left:3px solid var(--rule);
+  padding:16px 0 4px 16px;
+  margin-left:0;
+}
+.job-role{
+  font-size:15px; font-weight:600; color:var(--accent-ink);
+  margin:0 0 4px;
+}
+.job-meta{
+  font-size:13px; color:var(--muted); margin:0 0 14px;
+}
+.job ul{
+  margin:0; padding:0; list-style:none;
+  max-width:var(--measure);
+  display:flex; flex-direction:column; gap:9px;
+}
+.job ul li{
+  position:relative;
+  padding-left:18px;
+  font-size:15px;
+  color:var(--ink-2);
+}
+.job ul li::before{
+  content:""; position:absolute; left:2px; top:.62em;
+  width:5px; height:5px; background:var(--accent); opacity:.65;
+}
+.win{
+  margin-top:16px;
+  max-width:var(--measure);
+  background:var(--accent-soft);
+  border-left:3px solid var(--accent);
+  padding:13px 16px;
+  font-size:14.5px;
+  color:var(--ink-2);
+}
+.win .lbl{
+  display:block;
+  font-family:"IBM Plex Mono", monospace;
+  font-size:10px; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--accent-ink);
+  margin-bottom:5px;
+}
+.win strong{color:var(--ink);}
+.win p{margin:0 0 10px;}
+.win p:last-child{margin-bottom:0;}
+
+/* ---------- formação ---------- */
+.edu{
+  display:flex; flex-direction:column;
+  border-top:1px solid var(--rule);
+}
+.edu li{
+  list-style:none;
+  display:grid;
+  grid-template-columns:120px minmax(0,1fr);
+  gap:4px 22px;
+  padding:16px 0;
+  border-bottom:1px solid var(--rule);
+}
+.edu .yr{
+  font-family:"IBM Plex Mono", monospace;
+  font-size:12.5px; color:var(--muted); font-variant-numeric:tabular-nums;
+  padding-top:3px;
+}
+.edu .ttl{font-weight:600; font-size:15.5px;}
+.edu .inst{font-size:14px; color:var(--muted); grid-column:2;}
+.edu .status{
+  display:inline-block; margin-left:8px;
+  font-family:"IBM Plex Mono", monospace; font-size:10px; letter-spacing:.1em; text-transform:uppercase;
+  color:var(--accent-ink); background:var(--accent-soft); padding:2px 7px; vertical-align:2px;
+}
+.edu ul{margin:0; padding:0;}
+
+/* ---------- competências / stack ---------- */
+.groups{display:grid; grid-template-columns:repeat(auto-fit, minmax(270px,1fr)); gap:1px; background:var(--rule); border:1px solid var(--rule);}
+.group{background:var(--surface); padding:18px 18px 20px;}
+.group h3{
+  margin:0 0 12px;
+  font-family:"IBM Plex Mono", monospace;
+  font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; font-weight:500;
+  color:var(--accent-ink);
+}
+.chips{display:flex; flex-wrap:wrap; gap:6px; margin:0; padding:0; list-style:none;}
+.chips li{
+  font-size:13px;
+  padding:4px 10px;
+  border:1px solid var(--rule-strong);
+  color:var(--ink-2);
+  background:var(--paper);
+  border-radius:2px;
+}
+.group p{margin:0; font-size:14.5px; color:var(--ink-2);}
+
+/* ---------- contato final ---------- */
+.cta{
+  margin-top:26px;
+  background:var(--surface);
+  border:1px solid var(--rule);
+  border-left:4px solid var(--accent);
+  padding:26px 26px 28px;
+  box-shadow:var(--shadow);
+}
+.cta h3{
+  margin:0;
+  font-family:"Spectral", Georgia, serif;
+  font-size:26px; font-weight:600; letter-spacing:-.01em;
+}
+.cta p{margin:10px 0 0; max-width:56ch; color:var(--ink-2);}
+.cta-actions{display:flex; flex-wrap:wrap; gap:10px; margin-top:20px;}
+
+footer{
+  margin-top:56px;
+  border-top:1px solid var(--rule);
+  padding-block:20px 40px;
+  display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap;
+  font-family:"IBM Plex Mono", monospace;
+  font-size:11px; letter-spacing:.06em;
+  color:var(--muted);
+  text-transform:uppercase;
+}
+
+/* ---------- responsivo ---------- */
+@media (max-width: 560px){
+  .contact-strip{grid-template-columns:minmax(0,1fr);}
+}
+@media (max-width: 900px){
+  .shell{grid-template-columns:minmax(0,1fr); gap:0; padding-inline:16px;}
+  .rail{display:none;}
+  .topbar{
+    display:flex; align-items:center; justify-content:space-between; gap:12px;
+    position:sticky; top:env(safe-area-inset-top, 0px); z-index:20;
+    background:var(--paper);
+    border-bottom:1px solid var(--rule);
+    padding:10px 16px;
+    margin-inline:-16px;
+  }
+  .topbar .nm{font-family:"Spectral", Georgia, serif; font-weight:700; font-size:16px;}
+  .main{padding-block:8px 0;}
+  .hero{padding-block:18px 0;}
+  .job-body{padding-left:13px;}
+  .edu li{grid-template-columns:minmax(0,1fr);}
+  .edu .inst{grid-column:1;}
+  .edu .yr{padding-top:0;}
+  section{margin-top:44px;}
+}
+
+@media (prefers-reduced-motion: reduce){
+  *{animation:none !important; transition:none !important; scroll-behavior:auto !important;}
+}
+html{scroll-behavior:smooth;}
+
+/* ---------- impressão ---------- */
+@media print{
+  :root{--paper:#fff; --surface:#fff; --ink:#000; --ink-2:#1a1a1a; --muted:#555; --rule:#ccc; --rule-strong:#999; --band:#000; --band-ink:#fff; --subband:#e6e6e6; --subband-ink:#000; --accent:#000; --accent-ink:#000; --accent-soft:#f2f2f2;}
+  .rail, .topbar, .hero-actions, .cta-actions, .btn{display:none !important;}
+  body{font-size:11pt; background:#fff;}
+  .shell{display:block; max-width:none; padding:0;}
+  section{margin-top:22pt; page-break-inside:avoid;}
+  .job{page-break-inside:avoid;}
+  .band{-webkit-print-color-adjust:exact; print-color-adjust:exact;}
+  a{color:#000; text-decoration:none;}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <span class="nm">Daniel Ferreira</span>
+  <button class="btn" type="button" data-print>Imprimir / PDF</button>
+</div>
+
+<div class="shell">
+
+  <aside class="rail">
+    <div class="rail-mark">
+      Daniel<br />Ferreira
+      <span>Controladoria &amp; Finanças</span>
+    </div>
+    <nav aria-label="Seções do currículo">
+      <a href="#perfil"><span class="n">01</span> Perfil</a>
+      <a href="#experiencia"><span class="n">02</span> Experiência</a>
+      <a href="#competencias"><span class="n">03</span> Competências</a>
+      <a href="#tecnologia"><span class="n">04</span> Tecnologia</a>
+      <a href="#formacao"><span class="n">05</span> Formação</a>
+      <a href="#contato"><span class="n">06</span> Contato</a>
+    </nav>
+    <div class="rail-actions">
+      <button class="btn" type="button" data-print>Imprimir / PDF</button>
+    </div>
+  </aside>
+
+  <main class="main">
+
+    <header class="hero">
+      <p class="eyebrow">Currículo profissional · 2026</p>
+      <h1>Daniel Leandro<br />Ferreira da Silva</h1>
+      <p class="role">Diretor Financeiro, Administrativo e Compras</p>
+      <p class="pitch">
+        Executivo financeiro com mais de 20 anos de carreira na gestão integral do ciclo
+        financeiro, orçamentário (FP&amp;A) e societário. Traduzo dados em diretrizes de
+        negócio — unindo governança corporativa, saneamento contábil em padrões CPC/IFRS
+        e transformação digital com Power BI, VBA, Python e IA generativa.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-solid" href="mailto:danieleandrorj@gmail.com?subject=Contato%20profissional%20%E2%80%93%20Daniel%20Ferreira">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 6h18v12H3z"/><path d="m3 7 9 6 9-6"/></svg>
+          Enviar e-mail
+        </a>
+        <a class="btn" href="https://wa.me/5521999247082" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-12.7 7.4L3 20.5l1.7-5.1A8.5 8.5 0 1 1 21 11.5Z"/></svg>
+          WhatsApp
+        </a>
+        <button class="btn" type="button" data-print>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M6 9V3h12v6"/><path d="M6 18H4a1 1 0 0 1-1-1v-6a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2"/><path d="M6 14h12v7H6z"/></svg>
+          Salvar em PDF
+        </button>
+      </div>
+
+      <dl class="contact-strip">
+        <div>
+          <dt>Telefone</dt>
+          <dd><a href="tel:+5521999247082">(21) 99924-7082</a></dd>
+        </div>
+        <div>
+          <dt>E-mail</dt>
+          <dd><a href="mailto:danieleandrorj@gmail.com">danieleandrorj@gmail.com</a></dd>
+        </div>
+        <div>
+          <dt>Localização</dt>
+          <dd>Rio de Janeiro — RJ</dd>
+        </div>
+        <div>
+          <dt>Idiomas</dt>
+          <dd>Português · Inglês intermediário</dd>
+        </div>
+      </dl>
+    </header>
+
+    <!-- 01 PERFIL -->
+    <section id="perfil">
+      <div class="band">
+        <h2>Perfil executivo</h2>
+        <span class="tag">01</span>
+      </div>
+      <div class="section-body prose">
+        <p>
+          Carreira consolidada na gestão integral do ciclo financeiro, orçamentário (FP&amp;A) e
+          societário, com forte expertise na <strong>estruturação da contabilidade e análise
+          patrimonial</strong>: conduzo auditorias internas, saneamento de balanços (normas
+          CPC/IFRS) e processos de reestruturação societária e tributária para assegurar a
+          proteção de ativos e a conformidade legal.
+        </p>
+        <p>
+          Especialista em <strong>modelagens econômico-financeiras complexas, valuation e gestão
+          estratégica de capital de giro</strong> (working capital) para maximização de liquidez e
+          suporte à decisão da alta gestão. Destaco-me por aliar governança corporativa à
+          transformação digital — desenvolvendo automações e relatórios gerenciais com Power BI,
+          VBA e Python, e aplicando IA generativa à otimização de rotinas e geração de insights
+          operacionais.
+        </p>
+        <p>
+          Experiência comprovada em captação de recursos bancários, gestão de compras (CMV),
+          gerenciamento da alavancagem, controle de CAPEX e mitigação de perdas. Atualmente, como
+          Diretor Financeiro, Administrativo e Compras, atuo como <strong>parceiro estratégico dos
+          sócios</strong>, liderando a governança corporativa e a viabilização financeira de novos
+          negócios — expertise consolidada em players como DOM Atacadista, TIM Brasil e corporações
+          dos setores imobiliário e de mídia.
+        </p>
+
+        <div class="facts">
+          <div class="fact">
+            <div class="v">20+</div>
+            <div class="k">anos de carreira em finanças, controladoria e contratos</div>
+          </div>
+          <div class="fact">
+            <div class="v">6</div>
+            <div class="k">setores: varejo/atacado, telecom, mídia, imobiliário, energia e serviços</div>
+          </div>
+          <div class="fact">
+            <div class="v">MBA</div>
+            <div class="k">em Finanças e Controladoria, com pós em Gestão e Direito Imobiliário</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02 EXPERIÊNCIA -->
+    <section id="experiencia">
+      <div class="band">
+        <h2>Experiência profissional</h2>
+        <span class="tag">02</span>
+      </div>
+      <div class="section-body">
+
+        <article class="job">
+          <div class="job-bar">
+            <h3>JCP Produtos Naturais Ltda</h3>
+            <span class="years">2026 — Atual</span>
+          </div>
+          <div class="job-body">
+            <p class="job-role">Diretor Financeiro, Administrativo e Compras</p>
+            <p class="job-meta">Varejo alimentar e produtos naturais · Rio de Janeiro</p>
+            <ul>
+              <li>Liderança executiva do planejamento estratégico corporativo, em contato direto com os sócios para definir diretrizes de negócio, fortalecer a governança e estimular a cultura corporativa.</li>
+              <li>Condução do planejamento societário e da estruturação contábil: saneamento patrimonial, correção de histórico e fechamento do Balanço Patrimonial nos padrões CPC.</li>
+              <li>Estratégia tributária e estudos de viabilidade para redefinição do modelo empresarial — análise crítica entre operação Matriz/Filial <em>versus</em> CNPJs isolados.</li>
+              <li>Gestão estratégica das equipes de Tesouraria, Contas a Pagar/Receber, Compras (CMV e administrativas) e RH.</li>
+              <li>Inteligência comercial e financeira para avaliação das compras de loja: rentabilidade, estoques, velocidade de vendas e precificação (markup), integrando variáveis macroeconômicas às estratégias de Operações e Supply.</li>
+              <li>Planejamento financeiro com estruturação de DRE, cenários orçamentários (budget/forecast), projeções de fluxo de caixa e otimização do capital de giro.</li>
+              <li>Transformação digital com automações em Python, VBA e Excel para dashboards de vendas e análises de payback de investimentos.</li>
+            </ul>
+            <div class="win">
+              <span class="lbl">Realizações</span>
+              <p><strong>Expansão e novos negócios (Store in Store):</strong> liderou a implantação do modelo em
+              uma grande rede de supermercados, atuando como sponsor e PMO — emulação de cenários
+              financeiros, planos de ação e estudo de viabilidade.</p>
+              <p><strong>Governança financeira e estruturação de capital:</strong> consolidou a governança
+              corporativa da área financeira do Empório Natural Mix, com controles de alto nível que
+              viabilizaram a captação de recursos junto a instituições bancárias.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="job">
+          <div class="job-bar">
+            <h3>DOM Atacadista S.A.</h3>
+            <span class="years">2025 — 2026</span>
+          </div>
+          <div class="job-body">
+            <p class="job-role">Sênior em Controladoria</p>
+            <p class="job-meta">Atacarejo e varejo alimentar</p>
+            <ul>
+              <li>Planejamento e construção de indicadores para avaliação do planejamento operacional e financeiro, com KPIs de performance por loja alinhados às estratégias de varejo e atacado.</li>
+              <li>Controle de custos e perdas: mitigação de perdas operacionais (brutas e líquidas), contenção de despesas não orçadas e mapeamento de custos de manutenção e utilidades em valores absolutos e percentuais.</li>
+              <li>Gestão orçamentária de todas as áreas — construção, revisão e acompanhamento de budget/forecast, estudos de margem (bruta e operacional) e análise de desvios.</li>
+              <li>Modelagem e automação do ciclo de fechamento mensal e de rotinas financeiras (como o sistema de cobrança de aluguéis de parceiros) via integrações Python, VBA e Excel.</li>
+              <li>Estruturação de DREs, benchmarking entre lojas e relatórios executivos para a alta administração.</li>
+              <li>Condução de reuniões gerenciais para apresentação de resultados, debate orçamentário e acompanhamento dos planos de ação com as lideranças.</li>
+            </ul>
+            <div class="win">
+              <span class="lbl">Realização</span>
+              Criação de indicadores, automatização e base de informações gerenciais, com revisão das
+              metodologias orçamentárias — sobretudo em perdas de inventário, manutenção e utilidades —
+              elevando a qualidade do orçamento anual e a precisão das análises de melhoria de processos.
+            </div>
+          </div>
+        </article>
+
+        <article class="job">
+          <div class="job-bar">
+            <h3>TIM Brasil S.A.</h3>
+            <span class="years">2023 — 2025</span>
+          </div>
+          <div class="job-body">
+            <p class="job-role">Consultor Sênior — Precificação e Planejamento</p>
+            <p class="job-meta">Telecomunicações · Unidade Corporate / IoT</p>
+            <ul>
+              <li>Avaliação e apuração de resultados econômico-financeiros de produtos de IoT para grandes clientes B2B, com análise estratégica de vendas da unidade Corporate.</li>
+              <li>Previsões de vendas semanais, mensais e anuais; monitoramento de custos e da realização de CAPEX nos projetos de IoT por vertical de mercado.</li>
+              <li>Gestão do orçamento de receitas de revenda de produtos IoT, com simulações e modelagens financeiras para projetos de alto valor de investimento — margens sobre CAPEX, precificação por quantidade, EBITDA e perpetuidade (valuation).</li>
+              <li>Aplicação de conceitos modernos de gestão financeira, como CAPM, e condução de análises <em>ex ante</em> e <em>ex post</em> das unidades de negócio.</li>
+              <li>Desenvolvimento de simuladores financeiros e indicadores para aprovação de propostas alinhadas ao plano estratégico trienal.</li>
+            </ul>
+            <div class="win">
+              <span class="lbl">Realização</span>
+              Desenvolvimento de um <strong>simulador financeiro avançado</strong> que avalia cada proposta
+              comercial como projeto independente, incorporando variáveis complexas de viabilidade técnica
+              e financeira de alto risco. A ferramenta estruturou valuation completo — perpetuidade,
+              análise de CAPEX e OPEX e impacto no working capital — apurando VPL, ROI e percentual de
+              CAPEX sobre a receita para a tomada de decisão.
+            </div>
+          </div>
+        </article>
+
+        <article class="job">
+          <div class="job-bar">
+            <h3>Infotec Brasil S.A.</h3>
+            <span class="years">2022 — 2023</span>
+          </div>
+          <div class="job-body">
+            <p class="job-role">Analista de Controladoria Sênior</p>
+            <p class="job-meta">Prestação de serviços para Petrobras Petróleo S.A.</p>
+            <ul>
+              <li>Análise das demonstrações econômico-financeiras em processos de licitação e contratação por parceria/dispensa para a Petrobras, apoiando o combate a fraudes e as atividades de compliance e auditoria.</li>
+              <li>Suporte à gerência nas análises de custo para o setor de Compras.</li>
+              <li>Verificação de conformidade das informações com normas, legislação e prática contábil internacional; cálculo de indicadores de endividamento e liquidez.</li>
+              <li>Diligência do processo de habilitação de fornecedores vencedores, verificando exigências contratuais, técnicas e legais e mitigando riscos.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="job">
+          <div class="job-bar">
+            <h3>Rádio e Televisão Bandeirantes do Rio de Janeiro S.A. — Band Rio</h3>
+            <span class="years">2018 — 2022</span>
+          </div>
+          <div class="job-body">
+            <p class="job-role">Coordenador de Contratos — Planejamento Financeiro</p>
+            <p class="job-meta">Mídia e radiodifusão</p>
+            <ul>
+              <li>Coordenação, mapeamento e avaliação da performance das empresas do grupo, com criação de KPIs por área e análise de todos os eventos de contratação de despesas e receitas para apoio às decisões da Diretoria.</li>
+              <li>Relatórios gerenciais e apoio ao registro contábil, com controle de integridade e qualidade dos lançamentos: aging de contas a pagar e a receber, endividamento, parcelamentos fiscais e operacionais e cálculo de provisões.</li>
+              <li>Validação de receita emitida, recebimentos, inadimplência e PCLD; controle de receita diferida e de saldos de estoque de exibição.</li>
+              <li>Relatórios e apresentações de DRE, balanço, resultado econômico <em>versus</em> posição financeira, fluxo de caixa, realizado/forecast e orçado/realizado; elaboração do orçamento anual.</li>
+              <li>Captação de recursos em bancos e instituições financeiras, com gestão da operação contratual e controle de garantias bancárias.</li>
+              <li>Coordenação de equipes em auditorias contábeis, estudos de viabilidade econômico-financeira, construção de KPIs e ferramentas de business intelligence, renegociação com fornecedores e clientes, controle de bonificações, comissões e rescisões contratuais.</li>
+            </ul>
+            <div class="win">
+              <span class="lbl">Realização</span>
+              Implantação de processos e ferramentas de controle com padronização e automatização de
+              relatórios, elevando a qualidade das informações fornecidas à auditoria e às gerências.
+              Controle efetivo dos contratos de produção de conteúdo, modelagem financeira para análise
+              de contratos do Jurídico, RH e Comercial, captação bancária de apoio ao fluxo de caixa e
+              revisão contratual que gerou redução de custos.
+            </div>
+          </div>
+        </article>
+
+        <article class="job">
+          <div class="job-bar">
+            <h3>Televisão Cidade S.A.</h3>
+            <span class="years">2016 — 2018</span>
+          </div>
+          <div class="job-body">
+            <p class="job-role">Especialista em Gestão de Contratos — Financeiro</p>
+            <p class="job-meta">Mídia e telecomunicações</p>
+            <ul>
+              <li>Emissão e análise de relatórios gerenciais de fluxo de caixa, orçamento, follow-up, faturamento e recebimentos de grandes clientes, com ferramentas de desempenho do caixa em visão econômico-financeira.</li>
+              <li>Coordenação da agenda de vencimentos e controle de títulos retidos; conciliação de caixa e acompanhamento de endividamento operacional, fiscal e bancário e da disponibilidade bancária.</li>
+              <li>Desenvolvimento de ferramentas automatizadas em VBA/macros para controle diário, semanal e mensal; apresentações à gerência e diretoria, estudos de viabilidade, reforecast, real <em>versus</em> orçado e construção de orçamento.</li>
+              <li>Gestão do contas a receber de grandes clientes: aging de vencidos e a vencer, previsão de receitas e emissão de demonstrativos de faturamento de telecom (DELIN e DEINF) para operadoras e clientes corporativos.</li>
+              <li>Análise de contestações, cobertura de exigências bancárias para cessão de carteira de recebíveis e renegociação com fornecedores até a emissão de termos de confissão de dívida.</li>
+              <li>Mapeamento de custos operacionais e bancários, contratação e renovação de seguros, gestão de frota sob contrato de locação e coordenação das rotinas administrativas da sede.</li>
+            </ul>
+            <div class="win">
+              <span class="lbl">Realização</span>
+              Implantação de ferramentas de controle e relatórios gerenciais que deram visão diária e
+              semanal do desempenho de caixa e do resultado econômico, além de ações de redução de
+              endividamento, captação bancária e automatização do contas a receber de grandes clientes.
+            </div>
+          </div>
+        </article>
+
+        <article class="job">
+          <div class="job-bar">
+            <h3>GEP Realizações Imobiliárias / Global Equity Properties</h3>
+            <span class="years">2010 — 2016</span>
+          </div>
+          <div class="job-body">
+            <p class="job-role">Supervisor de Contas a Receber, Cobrança e Contratos · 2013 — 2016</p>
+            <p class="job-meta">Incorporação imobiliária e administração de recursos</p>
+            <ul>
+              <li>Gestão financeira do fundo de investimento nas áreas de contas a receber, contratos, gestão de vendas, repasse bancário e registro imobiliário — da operação de venda e análise de crédito ao financiamento bancário.</li>
+              <li>Criação de controles e políticas para a carteira de recebíveis, com cumprimento de exigências de órgãos públicos, cartórios e demais instituições.</li>
+              <li>Emissão de contratos, aditivos de renegociação, autorizações de rescisão e permutas; validação e aprovação de cálculos de VPL para descontos e renegociações conforme taxas de atratividade definidas.</li>
+              <li>Conciliação bancária, controle de remessas e retornos de títulos, gestão de inadimplência, cobrança e antecipação de recebíveis.</li>
+              <li>Relatórios gerenciais para diretoria e cotistas e modelos comerciais para bancos e financeiras, visando liberação de recursos para construção e incorporação.</li>
+              <li>Negociação de cessão de carteira e securitização de recebíveis, alienação fiduciária, gestão de correspondentes bancários e assessorias de cobrança.</li>
+            </ul>
+            <div class="win">
+              <span class="lbl">Realização</span>
+              Integração entre Vendas e Financeiro por meio da implantação de sistema, reduzindo pendências
+              praticamente a zero. Criação das áreas de contratos e cobrança, com ganho de eficiência e
+              satisfação dos clientes, e coordenação do repasse alinhada a bancos e cartórios, com ganho
+              financeiro substancial e redução no tempo de resposta do SAC.
+            </div>
+
+            <p class="job-role" style="margin-top:22px;">Analista de Controladoria de Operações — Financeiro · 2010 — 2013</p>
+            <ul>
+              <li>Controle e estruturação de processos de apoio à incorporação imobiliária: análise e acompanhamento de contratos e legalização dos empreendimentos.</li>
+              <li>Apoio à contabilidade nos processos de recebimento e pagamento dos empreendimentos, escrituração e controle de registros contábeis.</li>
+              <li>Controle da emissão de certidões para habite-se e visto fiscal; criação de processos e fluxos aderentes às normas de auditoria e modelagem dos processos existentes.</li>
+              <li>Análise de fluxo de caixa para decisões gerenciais, atendimento a exigências bancárias e controle de juros, multas e impostos pagos pela obra.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="job">
+          <div class="job-bar">
+            <h3>CHL S.A. (PDG)</h3>
+            <span class="years">2010</span>
+          </div>
+          <div class="job-body">
+            <p class="job-role">Assistente de Repasse Bancário</p>
+            <p class="job-meta">Crédito imobiliário</p>
+            <ul>
+              <li>Atuação no repasse bancário junto à Caixa Econômica Federal e demais instituições: análise de crédito, relacionamento com bancos e enquadramento de perfis de clientes a empreendimentos.</li>
+              <li>Viabilidade de negociação com clientes e bancos, identificação de modalidades de financiamento e análise documental e de capacidade financeira.</li>
+              <li>Gestão da carteira de clientes nas modalidades de financiamento e relatórios de acompanhamento das carteiras.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="job">
+          <div class="job-bar">
+            <h3>Tenda Construtora S.A.</h3>
+            <span class="years">2008 — 2010</span>
+          </div>
+          <div class="job-body">
+            <p class="job-role">Agente de Crédito e Negociação / Repasse Bancário</p>
+            <p class="job-meta">Construção civil e crédito imobiliário</p>
+            <ul>
+              <li>Acompanhamento e análise do perfil da carteira de clientes e enquadramento a empreendimentos no processo de repasse junto à Caixa Econômica Federal e outros bancos.</li>
+              <li>Montagem e acompanhamento de processos junto a órgãos bancários e financeiras, com análise documental e de capacidade financeira.</li>
+              <li>Coleta de dados para análise gerencial e emissão de relatórios sobre as carteiras.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="job">
+          <div class="job-bar">
+            <h3>Infoglobo S.A.</h3>
+            <span class="years">2005 — 2008</span>
+          </div>
+          <div class="job-body">
+            <p class="job-role">Assistente Comercial</p>
+            <p class="job-meta">Mídia impressa · O Globo, Extra e Expresso</p>
+            <ul>
+              <li>Venda e negociação de espaços publicitários, com administração da carteira de clientes da loja de classificados.</li>
+              <li>Definição de ações estratégicas de venda, prospecção de novos clientes e atendimento a micro e pequenas empresas.</li>
+              <li>Renegociação de contratos e fechamento do fluxo de caixa diário.</li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- 03 COMPETÊNCIAS -->
+    <section id="competencias">
+      <div class="band">
+        <h2>Competências</h2>
+        <span class="tag">03</span>
+      </div>
+      <div class="section-body">
+        <div class="groups">
+          <div class="group">
+            <h3>Planejamento &amp; FP&amp;A</h3>
+            <ul class="chips">
+              <li>Budget e Forecast</li>
+              <li>Reforecast</li>
+              <li>Estruturação de DRE</li>
+              <li>Fluxo de caixa projetado</li>
+              <li>Análise de desvios</li>
+              <li>Estudos de margem</li>
+              <li>KPIs e BI</li>
+              <li>Benchmarking</li>
+            </ul>
+          </div>
+          <div class="group">
+            <h3>Controladoria &amp; Contabilidade</h3>
+            <ul class="chips">
+              <li>Normas CPC / IFRS</li>
+              <li>Saneamento de balanço</li>
+              <li>Fechamento mensal</li>
+              <li>Auditoria interna</li>
+              <li>PCLD e provisões</li>
+              <li>Controle de perdas</li>
+              <li>Planejamento tributário</li>
+              <li>Reestruturação societária</li>
+            </ul>
+          </div>
+          <div class="group">
+            <h3>Finanças corporativas</h3>
+            <ul class="chips">
+              <li>Valuation</li>
+              <li>VPL e ROI</li>
+              <li>CAPM</li>
+              <li>CAPEX e OPEX</li>
+              <li>EBITDA</li>
+              <li>Working capital</li>
+              <li>Captação bancária</li>
+              <li>Securitização de recebíveis</li>
+            </ul>
+          </div>
+          <div class="group">
+            <h3>Gestão &amp; governança</h3>
+            <ul class="chips">
+              <li>Governança corporativa</li>
+              <li>Compliance e PLD</li>
+              <li>Gestão de contratos</li>
+              <li>Compras e CMV</li>
+              <li>Tesouraria</li>
+              <li>Contas a pagar e receber</li>
+              <li>Liderança de equipes</li>
+              <li>PMO e novos negócios</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 TECNOLOGIA -->
+    <section id="tecnologia">
+      <div class="band">
+        <h2>Tecnologia, inovação e certificações</h2>
+        <span class="tag">04</span>
+      </div>
+      <div class="section-body">
+        <div class="groups">
+          <div class="group">
+            <h3>Sistemas e ERPs</h3>
+            <ul class="chips">
+              <li>SAP</li>
+              <li>TOTVS</li>
+              <li>Microsiga</li>
+              <li>SIGIM</li>
+              <li>ANAPRO</li>
+              <li>GED Eikon Documents</li>
+              <li>PLACOMP</li>
+              <li>AutoCAD</li>
+            </ul>
+          </div>
+          <div class="group">
+            <h3>Dados e automação</h3>
+            <ul class="chips">
+              <li>Excel avançado</li>
+              <li>VBA e macros</li>
+              <li>Power BI</li>
+              <li>Power Query</li>
+              <li>Tabelas dinâmicas</li>
+              <li>Python</li>
+              <li>Dashboards gerenciais</li>
+            </ul>
+            <p style="margin-top:12px;">Estruturação de algoritmos e integrações Python/VBA/Excel para automação de rotinas financeiras e relatórios executivos.</p>
+          </div>
+          <div class="group">
+            <h3>Inteligência artificial</h3>
+            <ul class="chips">
+              <li>Gemini</li>
+              <li>Copilot</li>
+              <li>Claude</li>
+              <li>Kimi</li>
+              <li>Manus IA</li>
+            </ul>
+            <p style="margin-top:12px;">Domínio de suítes de IA generativa aplicadas ao aumento de produtividade e à otimização de fluxos corporativos.</p>
+          </div>
+          <div class="group">
+            <h3>Certificações</h3>
+            <ul class="chips">
+              <li>Compliance e PLD — ANBIMA</li>
+              <li>Valuation: avaliação de empresas — FIPE</li>
+            </ul>
+            <p style="margin-top:12px;">Certificação ANBIMA em Compliance e Prevenção à Lavagem de Dinheiro; formação em valuation pela Fundação Instituto de Pesquisas Econômicas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 FORMAÇÃO -->
+    <section id="formacao">
+      <div class="band">
+        <h2>Formação acadêmica</h2>
+        <span class="tag">05</span>
+      </div>
+      <div class="section-body">
+        <ul class="edu">
+          <li>
+            <span class="yr">2023 — 2027</span>
+            <span class="ttl">Bacharelado em Ciências Contábeis <span class="status">Em andamento</span></span>
+            <span class="inst">Universidade Veiga de Almeida — UVA / RJ</span>
+          </li>
+          <li>
+            <span class="yr">2022 — 2023</span>
+            <span class="ttl">MBA em Finanças e Controladoria</span>
+            <span class="inst">Universidade Veiga de Almeida — UVA / RJ</span>
+          </li>
+          <li>
+            <span class="yr">2013 — 2014</span>
+            <span class="ttl">Pós-graduação em Gestão e Direito Imobiliário</span>
+            <span class="inst">Universidade Cândido Mendes / CBEPJUR — Centro Brasileiro de Estudos e Pesquisas Jurídicas</span>
+          </li>
+          <li>
+            <span class="yr">2001 — 2005</span>
+            <span class="ttl">Bacharelado em Administração</span>
+            <span class="inst">CEFET/RJ — Centro Federal de Educação Tecnológica Celso Suckow da Fonseca</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 06 CONTATO -->
+    <section id="contato">
+      <div class="band">
+        <h2>Contato</h2>
+        <span class="tag">06</span>
+      </div>
+      <div class="section-body">
+        <div class="cta">
+          <h3>Vamos conversar sobre o próximo desafio.</h3>
+          <p>
+            Disponível para posições executivas e projetos em controladoria, planejamento
+            financeiro, governança corporativa e transformação digital da área financeira.
+          </p>
+          <div class="cta-actions">
+            <a class="btn btn-solid" href="mailto:danieleandrorj@gmail.com?subject=Contato%20profissional%20%E2%80%93%20Daniel%20Ferreira">danieleandrorj@gmail.com</a>
+            <a class="btn" href="tel:+5521999247082">(21) 99924-7082</a>
+            <a class="btn" href="https://wa.me/5521999247082" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <span>Daniel Leandro Ferreira da Silva</span>
+      <span>Currículo profissional · 2026</span>
+    </footer>
+
+  </main>
+</div>
+
+<script>
+(function () {
+  // Imprimir / salvar em PDF
+  document.querySelectorAll('[data-print]').forEach(function (b) {
+    b.addEventListener('click', function () { window.print(); });
+  });
+
+  // Destaque da seção ativa no índice lateral
+  var links = Array.prototype.slice.call(document.querySelectorAll('.rail nav a'));
+  var sections = links
+    .map(function (a) { return document.querySelector(a.getAttribute('href')); })
+    .filter(Boolean);
+
+  if (!sections.length || !('IntersectionObserver' in window)) return;
+
+  function setCurrent(id) {
+    links.forEach(function (a) {
+      a.setAttribute('aria-current', a.getAttribute('href') === '#' + id ? 'true' : 'false');
+    });
+  }
+
+  var visible = new Map();
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting) visible.set(e.target.id, e.boundingClientRect.top);
+      else visible.delete(e.target.id);
+    });
+    var first = sections.filter(function (s) { return visible.has(s.id); })[0];
+    if (first) setCurrent(first.id);
+  }, { rootMargin: '-10% 0px -70% 0px', threshold: 0 });
+
+  sections.forEach(function (s) { io.observe(s); });
+  setCurrent(sections[0].id);
+})();
+</script>
+
+</body>
+</html>
